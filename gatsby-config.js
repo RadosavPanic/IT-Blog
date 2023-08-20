@@ -14,10 +14,12 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/markdown-pages`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -27,7 +29,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/it-logo.png`,
       },
     },
   ],

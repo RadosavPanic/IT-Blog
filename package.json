@@ -5,14 +5,18 @@
   "version": "0.1.0",
   "author": "Radosav Panic",
   "dependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-plugin-styled-components": "^6.11.0",
     "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7"
   },
   "keywords": [
     "gatsby"
@@ -21,7 +25,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
